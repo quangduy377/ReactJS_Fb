@@ -1,0 +1,106 @@
+.page{
+    /* background-color: gray; */
+    background-image: linear-gradient(to right, rgba(0, 89, 255, 0), rgb(9, 131, 231), rgb(132, 0, 255),rgb(187, 24, 209),rgb(253, 0, 219) );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+}
+
+.forgot__password{
+    color: gray;
+    width: max-content;
+    position: absolute;
+    top: 130px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.forgot__password:hover{
+    color: purple;
+}
+
+.title{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.username__label{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+.input__username{
+    font-weight: bold;
+    width: 250px;
+    outline: none;
+    display: block;
+    position: absolute;
+    top: 40px;
+    /* right: -5px; */
+    right: -132px;
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+.password__label{
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 61px;
+}
+.input__password{
+    font-weight: bold;
+    width: 250px;
+    outline: none;
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: -131px;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+.submit__button{
+    width: 250px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    /* background-color: linear-gradient(to-right, ); */
+    background-image: linear-gradient(to right, rgba(17, 219, 219, 0), rgb(9, 131, 231), rgb(154, 48, 224),rgb(198, 0, 238),rgb(253, 0, 219) );
+    position: absolute;
+    top: 170px;
+    align-self: center;
+    border-radius: 50px;
+}
+.submit__button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(253, 0, 219),rgb(198, 0, 238), rgb(154, 48, 224), rgb(9, 131, 231),rgba(17, 219, 219, 0));
+}
+.signup{
+    text-decoration: none;
+    font-size: medium;
+    color: gray;
+    width: max-content;
+    position: absolute;
+    top: 220px;
+    align-self: center;
+}
+.signup:hover{
+    color: rgb(194, 38, 194);
+}
