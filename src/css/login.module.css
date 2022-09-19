@@ -3,20 +3,21 @@
     background-image: linear-gradient(to right, rgba(0, 89, 255, 0), rgb(9, 131, 231), rgb(132, 0, 255),rgb(187, 24, 209),rgb(253, 0, 219) );
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .form{
     background-color: white;
     color: black;
-    width: 50%;
+    width: 25%;
     height: 90%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-form{
+.container{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -40,12 +41,23 @@ form{
     font-size: 30px;
     font-weight: bold;
 }
+.message{
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.error-message{
+    color: red;
+}
 
 .username__label{
     display: block;
     position: absolute;
     top: 20px;
     right: 60px;
+    font-weight: bold;
 }
 .input__username{
     font-weight: bold;
@@ -54,16 +66,16 @@ form{
     display: block;
     position: absolute;
     top: 40px;
-    /* right: -5px; */
-    right: -132px;
-    border: 0;
-    border-bottom: 2px solid gray;
+    right: -129px;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 .password__label{
     display: block;
     position: absolute;
     top: 80px;
     right: 61px;
+    font-weight: bold;
 }
 .input__password{
     font-weight: bold;
@@ -73,8 +85,8 @@ form{
     position: absolute;
     top: 100px;
     right: -131px;
-    border: 0;
-    border-bottom: 2px solid black;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 .submit__button{
     width: 250px;
